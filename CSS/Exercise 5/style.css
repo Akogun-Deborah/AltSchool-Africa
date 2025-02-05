@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section (Form) */
+.checkout-form {
+    flex: 2;
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.number {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+/* Form Fields */
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-box {
+    flex: 1;
+}
+
+.input-box label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.small-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.small-inputs input {
+    width: 50%;
+}
+
+/* Button */
+.purchase-btn {
+    background-color: #1a936f;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.purchase-btn:hover {
+    background-color: #147a56;
+}
+
+/* Support Text */
+.support-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.support-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Stripe Logo */
+.stripe-logo {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+
+/* Right Section (Pricing Panel) */
+.pricing-panel {
+    flex: 1;
+    background-color: #007bff;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    min-width: 300px;
+}
+
+.pricing-panel h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.dollar-sign {
+    font-size: 30px;
+}
+
+.per-year {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.renew-text {
+    font-size: 14px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.features li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.switch-plan {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.switch-plan a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Testimonial */
+.testimonial {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/* User Profile */
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-profile img {
+    border-radius: 50%;
+    margin-right: 40px;
+    height: 40px;
+    margin-right: 10px;
+}

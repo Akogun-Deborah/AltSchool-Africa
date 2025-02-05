@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Media Elements</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Image</h2>
+        <picture>
+          <source srcset="/displayimage-large.jpg" media="(min-width:1024px)" />
+          <source srcset="/displayimage-medium.jpg" media="(min-width:768px)" />
+          <img src="/ASSIGNMENTS/HTML/displayimage.jpg" alt="Beautiful Debs" />
+        </picture>
+      </section>
+
+      <section>
+        <h2>Video</h2>
+        <video controls>
+          <source src="/ASSIGNMENTS/HTML/myintrovideo.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+      </section>
+
+      <section>
+        <h2>Audio</h2>
+        <audio controls>
+          <source src="/ASSIGNMENTS/HTML/myfavaudio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2021 Akogun Princess Deborah</p>
+    </footer>
+  </body>
+</html>
